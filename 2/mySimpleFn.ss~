@@ -1,0 +1,21 @@
+; tp rappel scheme
+; -------------------------------
+; fonction carre
+;------------------------------
+(define (carre x)
+  (* x x))
+
+
+; fonction simple
+; -----------------------------------
+(define (sfn x y)
+	( + 	(/ (- x 3) (+ (carre y) 1)) 
+		(/ 1 (+ (* (carre x) x)3))
+	)
+)
+
+; fonctions d'entree sortie
+; ---------------------------------------
+(define (prixttc1 tauxTVA prixHT)
+	(display (* prixHT (+ 1 (/ tauxTVA 100))) )	
+)

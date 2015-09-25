@@ -1,4 +1,4 @@
-## TP Résolution de preblèmes en Intelligence Artificielle
+## TP Résolution de problèmes en Intelligence Artificielle
 
 ### Manipulation de Clips
 
